@@ -1,0 +1,16 @@
+import turtle
+wn=turtle.Screen()
+t1=turtle.Turtle()
+t1.pensize(10)
+t1.color("blue")
+t1.right(90)
+t1.forward(150)
+t1.left(90)
+t1.forward(75)
+
+t2=turtle.Turtle()
+t2.pensize(13)
+t2.color("orange")
+t2.left(180)
+t2.forward(75)
+wn.exitonclick()
