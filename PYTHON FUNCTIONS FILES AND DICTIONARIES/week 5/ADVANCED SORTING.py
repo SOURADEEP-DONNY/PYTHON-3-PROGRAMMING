@@ -16,3 +16,13 @@ new_f=sorted(f, key=lambda x:(len(x),x),reverse=True)
 print('REVERSE SORTED ORDER\n\n\n')
 for i in new_f:
     print(i)
+
+
+#2. REVERSED SORTING OF THE SAME WITHOUT REVERSE KEYWORD
+
+f=['mango','banana','lichu','peach','apple','tomato','carrot','pineapple','berry']
+#SORTING ACCORDING TO LENGTH
+new_f=sorted(f, key=lambda x:(-len(x),x))
+print('REVERSE SORTED ORDER\n\n\n')
+for i in new_f:
+    print(i)
