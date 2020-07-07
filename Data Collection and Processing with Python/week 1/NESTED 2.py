@@ -3,8 +3,8 @@
 
 
 info=[['SOURADEEP','DAS',1997,'KOLKATA'],['SUKLA','DAS',1965,'KOLKATA'],['SATTYAK','SARMA',1997,'DURGAPUR']]
-lst=[]
+last_name=[]
 for i in info:
-    lst.append(i[1])
+    last_name.append(i[1])
 
-print(lst)
+print(last_name)
