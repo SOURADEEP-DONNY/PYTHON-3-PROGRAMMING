@@ -13,7 +13,7 @@ for i in original:
 print(copied_outer)
 
 #APPENDING ELEMENTS IN ORIGINAL LIST.
-original.append('[chess]')
+original.append(['chess'])
 
 print('\n')
 #PRINTING THE ORIGINAL LIST.
